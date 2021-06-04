@@ -6,6 +6,9 @@
 .sfdx/
 .localdevserver/
 
+# VS Code
+.vscode/
+
 # LWC VSCode autocomplete
 **/lwc/jsconfig.json
 
