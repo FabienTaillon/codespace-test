@@ -1,0 +1,22 @@
+{
+    "activitusbar.views": [
+      {
+        "name": "task.Setup SFDX Scratch Org",
+        "codicon": "server-process"
+      },
+      {
+        "name": "task.SFDX Pull",
+        "codicon": "cloud-download"
+      },
+      {
+        "name": "task.SFDX Push",
+        "codicon": "cloud-upload"
+      }
+    ],
+    "activitusbar.inactiveColour": "#75c4e9",
+    "workbench.colorCustomizations": {
+      "activityBar.background": "#2F2F06",
+      "titleBar.activeBackground": "#414208",
+      "titleBar.activeForeground": "#FBFBE2"
+    }
+}

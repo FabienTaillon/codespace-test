@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Setup SFDX Scratch Org",
+        "type": "shell",
+        "command": "./setupScratchOrg.sh ${input:issue_number}"
+      },
+      {
+        "label": "SFDX Pull",
+        "type": "shell",
+        "command": "sfdx force:source:pull"
+      },
+      {
+        "label": "SFDX Push",
+        "type": "shell",
+        "command": "sfdx force:source:push"
+      }
+    ],
+    "inputs": [
+      {
+        "type": "promptString",
+        "id": "issue_number",
+        "description": "Issue Number ?"
+      }
+    ]
+}

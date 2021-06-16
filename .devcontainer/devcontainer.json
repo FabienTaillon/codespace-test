@@ -6,7 +6,9 @@
       "redhat.vscode-xml",
       "dbaeumer.vscode-eslint",
       "esbenp.prettier-vscode",
-      "financialforce.lana"
+      "financialforce.lana",
+      "salesforce.salesforcedx-vscode-soql",
+      "gruntfuggly.activitusbar"
     ],
     "settings": {
       "salesforcedx-vscode-apex.java.home": "/usr/lib/jvm/java-11-openjdk-amd64"
