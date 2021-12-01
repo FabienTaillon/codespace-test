@@ -12,4 +12,4 @@ sfdx texei:data:import --inputdir ./data --targetusername $SCRATCH_ALIAS
 echo '##### CLEANING STANDARD LAYOUTS #####'
 sfdx texei:source:layouts:cleanorg --targetusername $SCRATCH_ALIAS
 echo '##### OPENING SCRATCH ORG #####'
-sfdx force:org:open --targetusername $SCRATCH_ALIAS
+sfdx force:org:open --urlonly --targetusername $SCRATCH_ALIAS
